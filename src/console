@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+$app = require __DIR__ . '/bootstrap/app.php';
+
+$console = $app->getContainer()->get(\App\Application\Console\Console::class);
+
+$code = $console->run();
+
+exit($code);
