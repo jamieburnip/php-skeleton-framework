@@ -13,20 +13,24 @@ class Test
     {
         return 'Other stuff';
     }
+
     public function returnOne()
     {
-     return 'Stuff';
+        return 'Stuff';
     }
+
     public function returnTwo()
     {
         return 'Other stuff';
     }
+
     public function returnThree()
     {
         return "Stuff";
     }
+
     public function returnFour()
     {
-       return 'Other stuff';
+        return 'Other stuff';
     }
 }
