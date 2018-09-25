@@ -4,11 +4,10 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $app = new \Slim\App(
     new \Slim\Container([
-            'settings' => [
-                'displayErrorDetails' => true,
-            ],
-        ]
-    )
+        'settings' => [
+            'displayErrorDetails' => true,
+        ],
+    ])
 );
 
 /**
