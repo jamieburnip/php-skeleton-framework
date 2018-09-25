@@ -3,7 +3,12 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 $app = new \Slim\App(
-    new \Slim\Container
+    new \Slim\Container([
+            'settings' => [
+                'displayErrorDetails' => true,
+            ],
+        ]
+    )
 );
 
 /**
