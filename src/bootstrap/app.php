@@ -6,8 +6,11 @@ $app = new \Slim\App(
     new \Slim\Container
 );
 
-$app->get('/', function() {
-    echo 'Home';
-});
+/**
+ * Routing
+ */
+
+require __DIR__ . '/../app/Application/Http/App/Routing/web.php';
+require __DIR__ . '/../app/Application/Http/Api/v1/Routing/api.php';
 
 return $app;
