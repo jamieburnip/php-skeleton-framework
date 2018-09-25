@@ -8,4 +8,9 @@ class Test
     {
         return 'Stuff';
     }
+
+    public function returnOtherStuff()
+    {
+        return 'Other stuff';
+    }
 }
