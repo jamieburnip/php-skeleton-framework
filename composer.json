@@ -14,7 +14,7 @@
     "psr-4": {
       "App\\": [
         "src/app/",
-        "tests/"
+        "tests/unit/"
       ]
     }
   },
